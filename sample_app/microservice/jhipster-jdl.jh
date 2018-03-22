@@ -1,0 +1,10 @@
+entity Device {
+   name String,
+   status DeviceStatus
+}
+
+enum DeviceStatus {
+   ACTIVE, INACTIVE
+}
+
+microservice * with microservice
